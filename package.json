@@ -1,26 +1,37 @@
 {
-  "name": "lyric-parser",
-  "version": "1.0.1",
-  "description": "lyric-parser base on javascript",
-  "main": "dist/lyric.js",
-  "scripts": {
-    "dev": "webpack-dev-server --config build/webpack.dev.js --port 9090 --inline --hot --content-base ./demo --host 0.0.0.0",
-    "build": "webpack --config build/webpack.prod.js"
+  "_from": "lyric-parser",
+  "_id": "lyric-parser@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-ofiqd2U8+Ufs+U31HV+Bavye1Ew=",
+  "_location": "/lyric-parser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "lyric-parser",
+    "name": "lyric-parser",
+    "escapedName": "lyric-parser",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ustbhuangyi/lyric-parser.git"
-  },
-  "keywords": [
-    "lyric",
-    "parser"
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "author": "ustbhuangyi",
-  "license": "MIT",
+  "_resolved": "https://registry.npmjs.org/lyric-parser/-/lyric-parser-1.0.1.tgz",
+  "_shasum": "a1f8aa77653cf947ecf94df51d5f816afc9ed44c",
+  "_spec": "lyric-parser",
+  "_where": "D:\\Mynest\\vue-music-player",
+  "author": {
+    "name": "ustbhuangyi"
+  },
   "bugs": {
     "url": "https://github.com/ustbhuangyi/lyric-parser/issues"
   },
-  "homepage": "https://github.com/ustbhuangyi/lyric-parser#readme",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "lyric-parser base on javascript",
   "devDependencies": {
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
@@ -31,14 +42,31 @@
     "babel-preset-stage-2": "^6.22.0",
     "babel-register": "^6.22.0",
     "eslint": "^3.14.1",
+    "eslint-config-standard": "^6.2.1",
     "eslint-friendly-formatter": "^2.0.7",
     "eslint-loader": "^1.6.1",
     "eslint-plugin-html": "^2.0.0",
-    "eslint-config-standard": "^6.2.1",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^2.0.1",
+    "html-webpack-plugin": "^2.28.0",
     "webpack": "^2.2.1",
-    "webpack-dev-server": "^1.14.1",
-    "html-webpack-plugin": "^2.28.0"
-  }
+    "webpack-dev-server": "^1.14.1"
+  },
+  "homepage": "https://github.com/ustbhuangyi/lyric-parser#readme",
+  "keywords": [
+    "lyric",
+    "parser"
+  ],
+  "license": "MIT",
+  "main": "dist/lyric.js",
+  "name": "lyric-parser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ustbhuangyi/lyric-parser.git"
+  },
+  "scripts": {
+    "build": "webpack --config build/webpack.prod.js",
+    "dev": "webpack-dev-server --config build/webpack.dev.js --port 9090 --inline --hot --content-base ./demo --host 0.0.0.0"
+  },
+  "version": "1.0.1"
 }
